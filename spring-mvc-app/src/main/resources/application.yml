@@ -1,0 +1,18 @@
+server:
+  port: 4041
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/pages/
+      suffix: .jsp
+  datasource:
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: Password12
+    
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    
+  
